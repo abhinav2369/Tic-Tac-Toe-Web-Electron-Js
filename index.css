@@ -1,0 +1,328 @@
+/* ---- Whole Body ----- */
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "CerebriSansPro", "Inter", sans-serif;
+    background-image: url(Resources/background-1.svg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* ---- Welcome Screen ---- */
+.welcome-screen{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index:5;
+    background-color: white;
+    transition: left 2s ease;
+}
+.welcome-screen .block-1{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.welcome-screen .block-1 img{
+    height: 90px;
+    width: 90px;
+    padding: 0px 15px;
+}
+.welcome-screen .block-1 h2{
+    color: rgb(78, 1, 149);
+    margin: 0px;
+    font-size: 32px;
+}
+.welcome-screen .block-2{
+    width: 80%;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 5px;
+    letter-spacing: 0.3px;
+}
+.welcome-screen .block-3 img{
+    height: 300px;
+    width: 300px;
+}
+#start{
+    padding: 10px 40px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 0px;
+    box-shadow: 0px 0px 5px 0px blueviolet;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* ---- Play ---- */
+.play{
+    height: 95vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 3;
+    background-color: white;
+    transition: left 2s ease;
+}
+.play  h1{
+    color: rgb(120, 16, 217);
+    margin: 0px;
+}
+.play .rules-point{
+    width: 90vw;
+}
+
+.rules-point ul li {
+    margin-bottom: 10px;
+}
+.play .buttons{
+    height: 80px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.play .buttons #about,.play .buttons #play-game{
+    height: 40px;
+    width: 140px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    padding: 0px 15px;
+    border: 0px;
+}
+.play .buttons #about{
+    background-color: brown;
+    box-shadow: 0px 0px 4px 0px brown;
+}
+.play .buttons #play-game{
+    background-color: green;
+    box-shadow: 0px 0px 4px 0px green;
+}
+
+/*---- About This Project ---- */
+.about-this-project{
+    height: 95vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: -100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    z-index: 4;
+    transition: left 2s ease;
+}
+.about-this-project h1{
+    color: rgb(120, 16, 217);
+    margin: 20px 0px 0px;
+}
+.about-this-project .block-2{
+    width: 80%;
+}
+.about-this-project .block-2 p{
+    text-align: left;
+    word-spacing: 3px;
+}
+.about-this-project .back {
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#back-b1{
+    padding: 10px 24px;
+    color: white;
+    font-size: 1rem;
+    border: 0px ;
+    border-radius: 25px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    background-color: red;
+}
+.about-this-project .block-3{
+    background-color: blueviolet;
+    color: white;
+    height: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+.about-this-project .block-3>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+}
+.about-this-project .block-3 p a{
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+.about-this-project .block-3 a img{
+    height: 30px;
+    width:  30px;
+    padding: 0px 10px;
+}
+
+/* ---- Main Container ----*/
+.main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+}
+.main .logo h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 10px;
+    padding: 10px 30px;
+    background-color: darkblue;
+    color: white;
+    font-size: 2rem;
+    border-radius: 30px;
+}
+.game{
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 0px;
+    column-gap: 0px;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 10px 0px;
+    
+}
+.block{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+#b1,#b2,#b3{
+    border-top: 2px solid white;
+}
+#b7,#b8,#b9{
+    border-bottom: 2px solid  white;
+}
+#b1,#b4,#b7{
+    border-left: 2px solid white;
+}
+#b3,#b6,#b9{
+    border-right: 2px solid white;
+}
+.block:hover span{
+    border-radius: 40px;
+    height: 80px; 
+    width: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(255, 218, 218);
+}
+
+/* ---- Reset Button ----*/
+.back-and-reset{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+#back-play,#reset{
+    padding: 10px 24px;
+    color: white;
+    font-size: 1rem;
+    border: 0px ;
+    border-radius: 25px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+}
+#back-play{
+    background-color: red;
+}
+#reset{
+    background-color: rgb(51, 152, 0);
+}
+
+/* ---- About Me ----*/
+.about-me{
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    background-color: blue;
+    padding: 20px 0px;
+}
+.about-me p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 1rem;
+    word-spacing: 3px;
+    letter-spacing: 0.2px;
+}
