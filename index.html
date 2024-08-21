@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <!-- Title & Favicon -->
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href="Resources/game-icon.svg" type="image/svg+xml">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Welcome Container -->
+    <div class="welcome-screen" id="welcome-screen">
+        <span class="block-1" id="block-1">
+            <img src="Resources/game-icon.svg" alt="image icon">
+            <h2>Tic Tac Toe</h2>
+        </span>
+        <span class="block-2">
+            Welcome to Tic Tac Toe! Enjoy this classic game of strategy and fun. Let's play and see who wins!"
+            <!-- About the project: A digital adaptation of the timeless Tic Tac Toe game for entertainment and strategic thinking -->
+        </span>
+        <span class="block-3">
+            <img src="Resources/game.svg" alt="Tic Tac Toe">
+        </span>
+        <span class="start">
+            <button id="start">START</button>
+        </span>
+    </div>
+
+    <!-- Play -->
+    <div class="play" id="play">
+        <span>
+            <h1>RULES</h1>
+        </span>
+        <span class="rules-point">
+            <p>
+                <ul>
+                    <li>Player 1 is 'X' and Player 2 is 'O</li>
+                    <li>Players take turns marking empty cells with their symbol.</li>
+                    <li>The first to align three of their symbols in a row, column, or diagonal wins.</li>
+                    <li>If all cells are filled without a winner, the game ends in a draw.</li>
+                    <li>Block your opponent's moves while planning your own winning sequences.</li>
+                    <li>Follow the rules and enjoy friendly competition!</li>
+                </ul>
+            </p>
+        </span>
+        <span class="buttons">
+            <button id="about">About Me</button>
+            <button id="play-game">Play</button>
+        </span>
+    </div>
+
+    <!-- About this Projects -->
+    <div class="about-this-project" id="about-this-project">
+        <h1>ABOUT</h1>
+        <span class="block-2">
+            <p>Tic Tac Toe is an open-source, classic game where two players compete to form a row, column, or diagonal of their symbol.</p>
+            <p>Enjoy endless entertainment with friends and family.</p>
+            <p>Simple rules make it accessible to players of all ages.</p>
+            <p>Enhance your strategic thinking and have fun challenging your opponents.</p>
+            <p>Available for free, bringing timeless fun to your fingertips.</p>
+        </span>
+        <span class="back">
+            <button id="back-b1">Back</button>
+        </span>
+        <span class="block-3">
+            <p>Feel free to contribute [ click below ]</p>
+            <a href="https://github.com/abhinavkumar2369/Tic-Tac-Toe-Web-Electron-Js" target="_blank"><img src="Resources/github-logo.svg" alt="Github-logo">GitHub</a>
+            <p>Website -- <a href="https://abhinavkumarofficial.com" target="_blank">abhinavkumarofficial.com</a></p>
+        </span>
+    </div>
+
+    <!-- Main -->
+    <div class="main" id="main">
+        <!-- Logo Container -->
+        <span class="logo" id="logo">
+            <h1>🌟 Tic Tac Toe 🌟</h1>
+        </span>
+        <!-- Game Container -->
+        <div class="game" id="game">
+            <div class="block" id="b1">
+                <span id="b-1"></span>
+            </div>
+            <div class="block" id="b2">
+                <span id="b-2"> </span>
+            </div>
+            <div class="block" id="b3">
+                <span id="b-3"> </span>
+            </div>
+            <div class="block" id="b4">
+                <span id="b-4"> </span>
+            </div>
+            <div class="block" id="b5">
+                <span id="b-5"> </span>
+            </div>
+            <div class="block" id="b6">
+                <span id="b-6"> </span>
+            </div>
+            <div class="block" id="b7">
+                <span id="b-7"> </span>
+            </div>
+            <div class="block" id="b8">
+                <span id="b-8"> </span>
+            </div>
+            <div class="block" id="b9">
+                <span id="b-9"> </span>
+            </div>
+        </div>
+        <span class="back-and-reset">
+            <button id="back-play">Back</button>
+            <button id="reset">Reset</button>
+        </span>
+        <!-- About Me -->
+        <span class="about-me" id="about-me">
+            <p>Enjoy the game and happy playing!</p>
+        </span>
+    </div>
+
+    <!-- External Scripting -->
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
