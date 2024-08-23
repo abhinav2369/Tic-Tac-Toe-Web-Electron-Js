@@ -3,6 +3,10 @@
      <img src="https://github.com/user-attachments/assets/1800137a-c5fb-4c12-bcd0-3057ec42655c" height=80px width=80px/>
      <br/>
      <br/>
+     <img alt="Static Badge" src="https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white">
+     <img alt="Static Badge" src="https://img.shields.io/badge/CSS-%231572B6?style=for-the-badge&logo=css3&logoColor=white">
+     <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+     <br/>
      <img alt="Static Badge" src="https://img.shields.io/badge/Website-red?style=for-the-badge">
      <img alt="Static Badge" src="https://img.shields.io/badge/Electron%20JS-8A2BE2?style=for-the-badge">
      <br/>
@@ -58,22 +62,28 @@ This project is a simple Tic Tac Toe game built with Electron.js.
     ```bash
     git clone https://github.com/abhinavkumar2369/Tic-Tac-Toe-Web-Electron-Js.git
     ```
+    
 2. Install dependencies:
  
     ```bash
     cd Tic-Tac-Toe-Web-Electron-Js
     npm install
     ```
-3. Run the application:
+    
+3. Run the application: (Electron Js Application)
  
     ```bash
     npm start
     ```
 
+   - For Web Preview Open the `index.html` file with the Live Server.
+
 ## Credit 👍 
 Images used in project belong to the Websites --->
 - SVG Repo <a href="https://www.svgrepo.com/"> Website </a>
 - UnDraw <a href="https://undraw.co/"> Website </a>
+
+## 🖼️ Screenshots
 
 ## ➡️ Electron Js (Desktop App)
 ![image](https://github.com/user-attachments/assets/47cea50c-84ca-4b50-8de6-1950d3e69386)
