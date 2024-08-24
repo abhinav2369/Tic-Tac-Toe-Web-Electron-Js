@@ -75,13 +75,22 @@ This project is a simple Tic Tac Toe game built with Electron.js.
     ```bash
     npm start
     ```
-
+    
    - For Web Preview Open the `index.html` file with the Live Server.
+
 
 ## Credit 👍 
 Images used in project belong to the Websites --->
 - SVG Repo <a href="https://www.svgrepo.com/"> Website </a>
 - UnDraw <a href="https://undraw.co/"> Website </a>
+
+## Contributions 🧑‍💻
+Contributions are welcome! Please feel free to submit issues and pull requests.
+
+## License 🪪
+This project is licensed under the [MIT License](LICENSE).
+
+
 
 ## 🖼️ Screenshots
 
